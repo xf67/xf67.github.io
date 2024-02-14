@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>柳亓</title>
+        <link>https://xf67.xyz/</link>
+        <description></description>
+        <generator>Hugo 0.122.0 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>xf6767@gmail.com (xf67)</managingEditor>
+        
+        
+            <webMaster>xf6767@gmail.com (xf67)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Thu, 15 Feb 2024 00:03:11 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://xf67.xyz/rss.xml" />
+        
+        
+    </channel>
+</rss>

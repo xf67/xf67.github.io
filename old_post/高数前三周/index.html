@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.122.0"><meta name="theme-color" content="#16171d" />
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>高数前三周 | 柳亓</title>
+
+    <link rel="stylesheet" href="/css/meme.min.ccd3eeaba26af2c0cbb3874b94d61c524f54fc46830642e92b5f04353984d07b.css"/>
+
+    
+    
+        
+            <script src="/js/meme.min.93caf51ca41a6ed5e468d2ac73c7cdfe253a756a2192255cf28aaa8da5ea4209.js"></script>
+
+        
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="xf67" /><meta name="description" content="只是想复习一下 mathjax好像不能完全渲染出latex的内容，比如exist是∃，……" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="柳亓" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="柳亓" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+        <link rel="canonical" href="https://xf67.xyz/old_post/%E9%AB%98%E6%95%B0%E5%89%8D%E4%B8%89%E5%91%A8/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "datePublished": "2022-10-08T09:39:02+00:00",
+        "dateModified": "2024-02-08T15:09:23+08:00",
+        "url": "https://xf67.xyz/old_post/%E9%AB%98%E6%95%B0%E5%89%8D%E4%B8%89%E5%91%A8/",
+        "name": "高数前三周",
+        "description": "只是想复习一下 mathjax好像不能完全渲染出latex的内容，比如exist是∃，……",
+        "image": "https://xf67.xyz/icons/apple-touch-icon.png",
+        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "柳亓",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://xf67.xyz/icons/apple-touch-icon.png"
+            },
+            "url": "https://xf67.xyz/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://xf67.xyz/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:site" content="@xf6703084552538" />
+<meta name="twitter:creator" content="@xf6703084552538" />
+
+    
+
+
+
+<meta property="og:title" content="高数前三周" />
+<meta property="og:description" content="只是想复习一下 mathjax好像不能完全渲染出latex的内容，比如exist是∃，……" />
+<meta property="og:url" content="https://xf67.xyz/old_post/%E9%AB%98%E6%95%B0%E5%89%8D%E4%B8%89%E5%91%A8/" />
+<meta property="og:site_name" content="柳亓" />
+<meta property="og:locale" content="zh-cn" /><meta property="og:image" content="https://xf67.xyz/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">柳亓</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/"><span class="menu-item-name">首頁</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/tech/"><span class="menu-item-name">廣識</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/life/"><span class="menu-item-name">生活</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item active"><a href="/old_post/"><span class="menu-item-name">舊文</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/"><span class="menu-item-name">關於</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                        <li class="menu-item">
+                            <a id="theme-switcher" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-light"><path d="M193.2 104.5l48.8-97.5a18 18 0 0128 0l48.8 97.5 103.4 -34.5a18 18 0 0119.8 19.8l-34.5 103.4l97.5 48.8a18 18 0 010 28l-97.5 48.8 34.5 103.4a18 18 0 01-19.8 19.8l-103.4-34.5-48.8 97.5a18 18 0 01-28 0l-48.8-97.5l-103.4 34.5a18 18 0 01-19.8-19.8l34.5-103.4-97.5-48.8a18 18 0 010-28l97.5-48.8-34.5-103.4a18 18 0 0119.8-19.8zM256 128a128 128 0 10.01 0M256 160a96 96 0 10.01 0"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-dark"><path d="M27 412a256 256 0 10154-407a11.5 11.5 0 00-5 20a201.5 201.5 0 01-134 374a11.5 11.5 0 00-15 13"/></svg></a>
+                        </li>
+                    
+                
+            
+        
+            
+                
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="justify" data-type="Old_Post" data-toc-num="true">
+
+            <h1 class="post-title p-name">高数前三周</h1>
+
+            
+
+            
+                
+            
+
+            
+                
+
+<div class="post-meta">
+    
+        
+        <time datetime="2022-10-08T09:39:02&#43;00:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2022.10.8</time>
+    
+    
+        
+        <time datetime="2024-02-08T15:09:23&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2024.2.8</time>
+    
+    
+    
+        
+        
+        
+    
+    
+        
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;7622</span>
+    
+    
+    
+    
+</div>
+
+            
+
+            <div class="post-body e-content">
+                <p>只是想复习一下</p>
+<p>mathjax好像不能完全渲染出latex的内容，比如exist是∃，以及infin是∞，可能是我的语法不够严谨罢，但是在我的编辑器typora中是可以渲染的。</p>
+<h2 id="一函数"><a href="#一函数" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>一、函数</h2>
+<h3 id="11实数集"><a href="#11实数集" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>1.1实数集</h3>
+<p>集合、集合的表示方式、常用的符号（N、$ N^{+} $、C、R、$Q$、$Q^c$、Z）……
+有限集、无限集（按元素个数分类）
+无穷集的元素个数比较：
+<strong>可列(数)集</strong>、<strong>不可列(数)集</strong>，以能否一个个列出来作为分类标准
+N={0,1,2,3......}可列；$Q^+$={p/q | p,q$\in$$N^+$, (p,q)=1}可以用pq列个表格然后斜着列，故也是可列集
+可数集的势为$\aleph_0$，实数集的势为$\aleph$，我们用顶上画两杠表示“<strong>势</strong>”。对于有限集，其势就是其元素个数。
+<strong>幂集</strong>：由A的所有子集构成的集合，记作$2^A$，$\overline{\overline{2^A}}=2^\overline{\overline A}$，若$\bar{\bar A}=\aleph_0$则$\overline{\overline{2^A}}=\aleph$，我们亦可以有幂集的幂集……
+由此得出结论：没有最大势，有最小势$\aleph_0$。另外，我们假设不存在介于$\aleph_0$和$\aleph$之间的势（连续统假设）。</p>
+<p><strong>稠密性</strong>：任意两个有理数之间有着无穷个有理数。（无理数也是稠密的）
+<strong>连续性</strong>：实数充满整个数轴、没有空隙、没有间断。</p>
+<p>逻辑符号：$\forall$、$\exist$……简单
+P$\rightarrow$Q，P推出Q成立，P为Q的充分条件，“$\rightarrow$”叫“必要性”。反之。
+P$\leftrightarrow$Q ，PQ互为充要条件，也可记为P iff Q (if and only if)。</p>
+<p>区间和邻域：实数集R的子集叫数集（所以来说复数集不是数集）。区间和邻域本身的定义略。
+左邻域$(x_0-\delta,x_0]$，右邻域类似，还有去心的左、右邻域。</p>
+<p>常用不等式：如下
+1.$a\le b \le c \rightarrow |b|\le max{|a|,|c|}\le |a|+|c|$
+2.<strong>三角</strong> $||a|-|b||\le|a\pm b|\le |a|+|b|$
+3.Schwarz $|\sum_{k=1}^{n}a_kb_k|\le\sum_{k=1}^n|a_kb_k|\le (\sum_{k=1}^na_k^2)^{1/2}(\sum_{k=1}^nb_k^2)^{1/2}$ 第二个等号的证明由$\sum_{k=1}^n(|a_k|+|b_k|t)^2\ge 0$对任意t成立，展开由t的二次方程$\Delta\le0$得。
+4.<strong>Bernoulli</strong> $(1+x)^n\ge 1+nx,n\in \N^+,x&gt;-1$当且仅当x=0时等号成立。
+5.<strong>A-G</strong> $n/(\frac{1}{x_1}+\frac{1}{x_2}+\frac{1}{x_3}+...\frac{1}{x_n})\le(x_1x_2x_3...x_n)^{1/n}\le (x_1+x_2+x_3+...x_n)/n$用数归证之可也。</p>
+<p>A-G不等式技巧：<strong>待补充</strong></p>
+<p>$a\le b \leftrightarrow \forall \epsilon &gt;0 \ 有 a&lt;b+\epsilon$，证明如下：
+$\rightarrow$：$a\le b&lt;b+\epsilon$
+$\leftarrow$：反证。设$a&gt;b$，取$\epsilon=(a-b)/2&gt;0,\rightarrow a&lt;b+\epsilon=(a+b)/2$，而$a&gt;b\rightarrow a&gt;(a+b)/2$，故矛盾。</p>
+<p>数集的界
+界的定义：$\exist E\subset \R,E\ne\empty $，若$M\in\R,\forall x\in E,x\le M$，那么称M为E的一个<strong>上界</strong>，则$\forall M'&gt;M$也是E的一个上界（上界不唯一，没有最大上界）。同理，我们也可以定义下界m。这些上(下)界中，上(下)确界才具有特殊性。
+上(下)确界的定义：$E\subset\R,E\ne\empty$，若$\exist \beta \in \R,s.t. \forall x\in E,x\le \beta\ ;\forall \beta'&lt;\beta,\exist x_0\in E,x_0&gt;\beta'$那么<strong>上确界</strong>$supE=\beta$。同样可以定义下确界$infE$。上下确界统称为确界。
+有界集：既有上界又有下界的数集。
+一个集合，若存在最大/小数，则存在上/下界等于它；若上/下确界存在，不一定存在最大/小数，因为可能是取不到。
+上下界如果存在，则必存在上下确界。（<strong>确界存在定理</strong>）上下确界如果存在，则必唯一。
+我们把A无上界记为$supA=+\infin$，无下界记为$infA=-\infin$；对于空集，我们有$sup\empty=-\infin,inf\empty=+\infin$。</p>
+<h3 id="12函数"><a href="#12函数" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>1.2函数</h3>
+<p>T是由X到Y的<strong>映射</strong>  $T:X\rightarrow Y,x|\rightarrow y=T(x)$，把T(x)叫做x在映射T下的<strong>像</strong>，x叫做y在映射T下的一个<strong>原像</strong>。<strong>定义域</strong>D(T)=X，<strong>值域</strong>R(T)是Y的一个子集，不一定充满整个Y。
+<strong>单射</strong>：x不同时y就不同，或者说值域中没有复用的点
+<strong>满射</strong>：Y中所有点都有X中的值对应，或者说值域填满Y集合
+<strong>双射</strong>：即使单射又是满射，或者说x与y一一对应
+与正整数集一一对应的集合叫可数集，两个一一对应的集合的势相等。
+实数集中的任意一块的势都是$\aleph$，因为可以用tanx来和实数集作一一对应。
+任何函数都是从定义域到值域的一个满射。
+双射可以把X和Y换一换，那么就叫做<strong>逆映射</strong>，函数的逆映射叫<strong>反函数</strong>。
+如果整个定义域上f不是严格单调的，我们也可以取出一段区间$I$来求反函数。
+反函数的<strong>相消性质</strong>：$f^{-1}[f(x)]=x,\forall x\in D(f)\ ;f[f^{-1}(x)],\forall x\in R(f)$</p>
+<p>两个非空<strong>实</strong>数集之间的映射叫做**(实)函数**。X、Y含有一个复数集就叫<strong>复函数</strong>
+对定义域X中的每个x，都存在唯一的函数值f(x)与之对应，称这样的函数为<strong>单值函数</strong>。
+不给出明确的定义域，那么定义域就是使函数表达式有意义的范围，这样的定义域叫<strong>自然定义域</strong>。对于有实际背景的函数，定义域还受到实际条件的约束。</p>
+<p>几种函数：
+<strong>绝对值</strong>$y=|x|$、<strong>取整</strong>$y=[x]$、<strong>恒等</strong>$I(x)=x$、<strong>符号</strong>$sgn(x)={-1,x&gt;0\ ; 0,x=0\ ;1,x&lt;0}$、<strong>Dirichlet</strong>$D(x)={1,x\in \Q\ ;0,x\in \Q^c}$、<strong>Riemann</strong>$R(x)={1/q,x=p/q,(p,q)=1\ ;0,x\in \Q^c\ ;1,x=0or1.x\in [0，1]}$
+取整是不大于x的最大整数，有$x-1\le [x]\le x\ ;[x]\le x\le [x]+1$。狄利克雷函数和黎曼函数都是常用的反例。</p>
+<p>两个函数相等，指定义域和对应关系都一样。</p>
+<p>复合映射、<strong>复合函数</strong>：
+$(f\circ g)(x)=f[g(x)],x\in X^*$要求g的值域和f的定义域的交集不为空，x的实际的定义域要同时满足两个定义域的需求。</p>
+<p><strong>函数的性质</strong>：
+奇偶性、单调性、有界性(有上界且有下界)、周期性
+单调性可以是≥或者≤，但是严格单调就只能是&gt;或&lt;。
+有界性用数集的有界性来定义，上下界并不唯一。
+f有界$\exist M&gt;0,\forall x\in I ,|f(x)|\le M $，f无界$|\forall M &gt;0,\exist x\in I ,|f(x)|&gt;M$；
+f有上界$\exist M\in R,\forall x\in I ,f(x)\le M$，f无上界$\forall M\in R,\exist x\in I ,f(x)&gt;M$。
+就是说把$\forall$和$\exist$交换，把不等号换成互补的那个，有无下界类似。
+最小正周期，不是所有周期函数都有，比如常数函数和D函数就没有最小正周期。</p>
+<p><strong>初等函数</strong>：
+基本初等函数：$y=c;y=x^a,a\ne 0;y=a^x,a&gt;0,a\ne 1;y=log_a x,a&gt;0,a\ne 1 x&gt;0$，三角函数、反三角函数。
+注意反三角函数的定义域和值域。
+初等函数：基本初等函数进过有限次 加减乘除、复合 运算。
+分段函数一般不是初等函数；如果分段函数能用初等函数表示出来那么也行，比如$y=|x|=\sqrt{x^2}$
+然而sgn(x),[x]都表示不出来，都不是初等函数。
+双曲函数是初等函数$sinh(x)=\frac{e^x-e^{-x}}{2},cosh(x)=\frac{e^x+e^{-x}}{2},tanh(x)=\frac{sinh(x)}{cosh(x)}$</p>
+<p><strong>隐函数</strong>：F(x,y)=0</p>
+<p><strong>参数方程</strong>：${x=x(t),y=y(t)$</p>
+<p><strong>极坐标方程</strong>：$r=r(\theta),\theta\in {[\alpha ,\beta ]}$
+定义域得要求$r\ge 0$以及$\theta$的区间宽度是2π（如果这个函数的周期是2π的因数的话），这样才能和直角坐标系一一对应。
+函数周期比2π大则要绕更多圈（找和2π的公倍数）。</p>
+<p>几种函数/方程类型的转化：
+并不是所有的隐函数都能化成通常意义上的单值函数，有时候要规定定义域。
+${x=rsin\theta,y=rcos\theta$代入$f(x,y)=0$，即得$r(\theta)$；
+$f(x,y)=0$的显化；<strong>待补充</strong>
+${x=x(t),y=y(t)$把$t$用$x$解出来，再把$t(x)$代入$y(t)$即得$y(x)$；
+参数方程怎么得到？用什么形式的元？<strong>待补充</strong></p>
+<h2 id="二极限与连续"><a href="#二极限与连续" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>二、极限与连续</h2>
+<h3 id="21数列的极限"><a href="#21数列的极限" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>2.1数列的极限</h3>
+<p>定义域为正整数集的函数$f:N_+\rightarrow R,x_n=f(n),n\in \N$称为<strong>数列</strong>。
+同样有单调、严格单调、有界、有上界、有下界的定义。
+单调增数列一定有下界，单调减数列一定有上界。
+注意如果仅仅说单调，要讨论是增还是减。
+另，讨论有界时注意数列看作函数的话，定义域非常有限，n=1开始，故像1/n不要误判为无界了。</p>
+<p><strong>极限</strong>：对${x_n}$，若$\exist A\in \R,\forall \epsilon &gt;0,\exist N\in \N,\forall n&gt;\N $有$|x_n-A|&lt;\epsilon$，称A是${x_n}$的极限，也称${x_n}$<strong>收敛</strong>，记$\lim_{n\rightarrow\infin} x_n=A$。
+若不存在，则称这个数列<strong>发散</strong>或<strong>不收敛</strong>。
+证明f(x)的极限是A：分析，要$|f(x)-A|&lt;\epsilon $，然后靠放缩实现简化，找到一个$n(\epsilon)$，然后取N，按定义证明。
+放缩在于让$n$很大的时候还是指向这个极限，而且$n$和$\epsilon $之间的关系变得简单。（<strong>适当放大法</strong>）
+技巧：<strong>待补充</strong></p>
+<p><strong>无穷小</strong>：$\lim x_n=0$则称${x_n}$为无穷小，$\lim x_n=A \leftrightarrow lim|x_n-A|=0$。
+<strong>有限个</strong>无穷小的和是无穷小，有界变量和无穷小的积是无穷小，两个无穷小的和差都是无穷小</p>
+<p><strong>无穷大</strong>：$\forall G&gt;0,\exist N\in \N,n&gt;N$时，$|x_n|&gt;G$，则称${x_n}$为无穷大量；若是$x_n&gt;G$，正无穷大量；若是$x_n&lt;-G$，负无穷大量。
+记为$\lim x_n=\infin $或$\pm\infin$
+发散的数列不一定是无穷大，比如$(-1)^n$；无穷大的数列一定发散。
+无穷大的数列一定无界；但是无界数列不一定无穷大，比如$xsinx$。
+有限个正负无穷大的和是正负无穷大；差是不一定的；无穷大加有界量是无穷大；无穷大乘有界量是不一定的，给出有界量的绝对值大于一个非零数则可以。</p>
+<p>$\lim x_n=\infin \leftrightarrow \lim 1/x_n=0$.</p>
+<p><strong>子列</strong>：设${n_1,n_2...}$是正整数集的子集，且$n_{k+1}&gt;n_k,k=1,2...$，则数列${x_{n_{1}}},{x_{n_{2}}}...{x_{n_{k}}}$是${x_n}$的一个子列（或称子数列、部分数列）。
+就是原数列取出无穷多项，保证顺序不变。
+${x_n}$无上界$\leftrightarrow $${x_n}$有一个子列为无穷大</p>
+<p><strong>极限的性质</strong>：
+唯一性：$\lim x_n=A ,\lim x_n=B $则$A=B$。
+$\forall \epsilon &gt;0,\exist N\in \N,\forall n&gt;N$有$|x_n-A|&lt;\epsilon /2,|x_n-B|&lt;\epsilon/2$，故$|A-B|=|(A-x_n)+(x_n-B)|\le|x_n-A|+|x_n-B|&lt;\epsilon $故$A=B$。
+有界性：收敛的数列是有界的（注意有界的数列不一定收敛）
+取$\epsilon =1 ,\exist N\in \N,\forall n&gt;N,|x_n-A|&lt;\epsilon=1,$故$|x_n|-|A|\le |x_n-A|&lt;1,$故$|x_n|&lt;|A|+1,n&gt;\N$，故有上界$sup{x_n}=max{|A|+1,x_1,x_2...x_n}$。下界类似。
+改变数列的有限项，其收敛性不变，且收敛到的极限值也不变
+改动有限项，则必有最后一项，取$N=max{N_1,N_2}$即可。
+保序性：$\lim x_n=A,\lim y_n=B,A&gt;B,$则$\exist N\in \N ,$当$n&gt;N$时$,x_n&gt;y_n$
+保号性：把$y_n$或$x_n$变成0，即可得到此推广。
+再推广，有$\lim x_n=a&gt;0\rightarrow \exist N\in \N，\forall n&gt;N, x_n&gt;c,c\in (0,a)$。
+证明只要取合适的$\epsilon$便可，让值的变动范围比所需要的范围窄。
+不等式性：$x_n\le y_n\rightarrow \lim x_n\le \lim y_n$，注意如果去掉那个等号则不一定成立，比如$1/n&lt;2/n$但是$\lim 1/n=\lim 2/n=0$。
+这其实是保序性的逆否命题。
+归并性：$\lim x_n=A\leftrightarrow {x_n}$的任意子列都收敛且收敛于A，$A\in[-\infin,+\infin]$。
+推广，只要这些收敛于A的子列能覆盖所有的元素，那么就可以推出原数列收敛于A
+如果两个子列收敛在两个不同的数，那么原数列不收敛。
+对推广的证明：$\forall \epsilon &gt;0,\exist N \in \N ,|x_{2n}-A|&lt;\epsilon,|x_{2n+1}-A|&lt;\epsilon$，故$n&gt;2N $时，$|x_n-A|&lt;\epsilon$</p>
+<p>证$sinx$发散
+反证，设$\lim sinx=A$，则$\lim cosx=\lim sin1cosx(\frac{1}{sin1})=\lim \frac{1}{2sin1}[sin(x+1)-sin(x-1)]= \frac{1}{sin1}(A-A)=0$，$\lim sin 2x=\lim 2sinxcosx=0$，sin2x是sinx的子列，故$\lim sin2x=\lim sinx=A$，则A=0，故$\lim(sin^2x+cos^2x)=0$，然非也。</p>
+<h3 id="22数列极限的性质和运算法则"><a href="#22数列极限的性质和运算法则" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>2.2数列极限的性质和运算法则</h3>
+<p><strong>极限的四则运算</strong>：
+$\lim x_n=A,\lim y_n=B$ 。
+$\lim(px_n+qy_n)=pA+qB,p,q\in \R;\lim (x_n y_n)=AB;\lim(x_n/y_n)=A/B,B\ne0$。
+注意只能是有限项，对于无限项的情况，应先求和、积，再求极限。另外，A、B要存在，不能是$\infin$。
+证明，用无穷小的性质来证明即可。
+推论，如果$\lim x_n=A$，那么$\lim x_n^k=A^k$，k是正整数。</p>
+<p>一个空手套白狼的例子：
+证$\lim ^n\sqrt{a}=1,a&gt;0$
+分类讨论，$a=1$显然。$a&gt;1$记$b_n=^n\sqrt{a}-1$，则$a=(1+b_n)^n\ge 1+nb_n$，于是$|^n\sqrt{a}-1|=b_n\le (a-1)/n$。$\forall \epsilon &gt;0$，取$N=[\frac{a-1}{\epsilon}]$，当$n&gt;N$时，就有$|^n\sqrt{a}-1|\le (a-1)/n&lt;\epsilon$，故$\lim ^n\sqrt{a}=1$。$0&lt;a&lt;1$时，用倒数则$1/a&gt;1$，用前面结论以及极限的运算法则。</p>
+<p>另一个例子：
+若$x_n\ge 0,\lim x_n=A\ge 0,m\in Z_+$，证$\lim ^m\sqrt{x_n}=\lim ^m\sqrt{A}$
+若 $A=0$, 由 $\lim _{x \rightarrow \infty} x_n=0, \forall \varepsilon&gt;0$, 取 $\epsilon_1=\epsilon^m, \exists N \in \N$, 当 $n&gt;N$ 时, 有 $x_n=\left|x_n-0\right|&lt;\varepsilon_1=\varepsilon^m$,
+从而$\left|\sqrt[m]{x_n}\right|=\sqrt[m]{x_n}&lt;\varepsilon$,故得$\lim \sqrt[m]{x_n}=0=\sqrt[m]{A} $
+若$A&gt;0$ ，在公式$a^m-b^m=(a-b)\left(a^{m-1}+a^{m-2} b+\cdots+b^{m-1}\right)$中取 $a=\sqrt[m]{x_n}, b=\sqrt[m]{A}$, 得到$\sqrt[m]{x_n}-\sqrt[m]{A}=\frac{x_n-A}{\sqrt[m]{x_n^{m-1}}+\sqrt[m]{x_n^{m-2} A}+\cdots+\sqrt[m]{A^{m-1}}}\le\frac{x_n-A}{\sqrt[m]{A^{m-1}}}$ ，而$\lim (x_n-A)=0$，故$\lim (\sqrt[m]{x_n}-\sqrt[m]{A})=0$，故得。</p>
+<p>​		推论，如果$\lim x_n=A,x_n\ge0$，那么$\lim x_n^k=A^k$，k是正有理数。
+​		如果取负有理数，是否还成立？成立……吧。</p>
+<p>对于无穷项的情况，不能用极限的运算法则，得先求和再求极限。</p>
+<h3 id="23数列极限存在的判别法"><a href="#23数列极限存在的判别法" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>2.3数列极限存在的判别法</h3>
+<p><strong>夹逼定理</strong>
+若对数列${x_n},{y_n},{z_n}$，$\exist N\in \N$，当n&gt;N时，$z_n\le x_n\le y_n$，且$\lim y_n=\lim z_n=A$，则$lim x_n=A$
+证明用$\varepsilon$很容易。</p>
+<p>​	运用夹逼定理做题，两边放缩，极限一样，便可得耶！放缩常用A-G不等式等技，另有分子有理化等杂项。
+​		A-G不等式常常建立在1的身份变幻上，而去根号则通常是为了能变得单调而取出极限。
+​		分式则除以最高次幂，然后用极限的运算法则即可得，含根号的分式也如此，不要直接看，含根号时答案可能和直觉相悖。
+​		$ln(1+x)\le x,x&gt;1\ ;\ 1&lt;ln(x)&lt;x,x&gt;3 $	
+​		无穷减无穷，通常通分</p>
+<p>​	一些例子
+​		证$\lim x^{1/x}=1$。
+​		$1\le x^{1/x}\le (\sqrt{x}\cdot\sqrt{x}\cdot1\cdot\cdot\cdot1)^{1/x}\le \frac{2\sqrt{x}+x-2}{x}\le \frac{2}{\sqrt{x}}+1$，两边夹逼得$1\le x^{1/x}\le 1$</p>
+<p><strong>Stolt公式</strong>
+设${y_n}$严格递增且趋于无穷大，若$\lim \frac{x_n-x_{n-1}}{y_n-y_{n-1}}=A$，则$\lim x_n/y_n=A,A\in [-\infin,+\infin]$。
+尤其用于一坨东西加在一起，但是作差之后就只剩一项的情况。</p>
+<p><strong>单调有界数列极限存在定理</strong>
+若${x_n}$单调增加(减少)且有上界(下界)，则${x_n}$收敛，且收敛于上(下)确界。
+证明：设 ${x_n}$单调增加且有上界,由确界定理知它有上确界, 记为 $A$, 由上确界的定义得: $\forall \varepsilon&gt;0, \exists x_N \in{x_n}$, 满足$x_N&gt;A-\varepsilon$。依单调性, 当$n&gt;N$ 时, 有$x_n\ge x_N&gt;A-\varepsilon$但 $A$ 为数列的上确界, 从而 $x_n \leqslant A&lt;A+\varepsilon$, 故当 $n&gt;N$ 时, $\left|x_n-A\right|&lt;\varepsilon$。于是$\lim  x_n=A $。同理可以证明: $\left{x_n\right}$ 单调减少且有下界时收敛到其下确界。</p>
+<p>​		看到$(1\pm1/n)^n$这样类似的类型，直接往e上靠，直接提出是e的部分，在分子or分母，然后去处理剩下的。</p>
+<p>​		单调，作差或者作商；有界，放缩，先猜范围再用数学归纳法去证明。
+​		若是摆动的，${x_n}$不单调可以考虑${x_{2n}},{x_{2n+1}}$单调，或者考虑$|x_n-A|$的单调。</p>
+<p><strong>区间套定理</strong>
+若 $\left[a_{n+1}, b_{n+1}\right] \subset\left[a_n, b_n\right], \forall n \in \N_{+}$, 且在 $\lim \left(b_n-a_n\right)=0$,
+则存在唯一实数 $\xi, \forall n \in \N$, 有 $a_n \leqslant \xi \leqslant b_n$。换言之，$\xi \in \bigcap_{n=1}^{\infty}\left[a_n, b_n\right] $
+证 由条件知, 数列 ${a_n},{b_n}$ 满足$a_n \leqslant a_{n+1}&lt;b_{n+1} \leqslant b_n, \forall n \in \N_{+}$，故数列${a_n}$单调增加且有上界$b_1$，故存在$\xi=sup{a_n}$使得$\lim  a_n=\xi, a_n \leqslant \xi $，同理也有$\eta=inf{b_n}$使得$\lim b_n=\eta, b_n \geqslant \eta$。而由 $\lim \left(b_n-a_n\right)=0$，导出$a_n \le \xi \leq b_n \quad\left(\forall n \in \N_{+}\right)$，即 $\xi \in \bigcap_{n=1}^{\infin}\left[a_n, b_n\right] $。又若存在 $\bar{\xi}$ 也满足 $\forall n \in \N_{+}, a_n \leqslant \bar{\xi} \leqslant b_n$ ，那么$0 \leqslant|\bar{\xi}-\xi| \leqslant b_n-a_n$，则导出$\bar{\xi}=\xi$, 这就证明了 $\xi$ 的唯一性。
+这是体现实数连续性的一个重要定理。</p>
+<h3 id="24函数的极限"><a href="#24函数的极限" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>2.4函数的极限</h3>
+<p>定义：设$f(x)$在点a的一个去心邻域内有定义，若存在实数A,$\forall \epsilon&gt;0,\exist\delta&gt;0$使得当$0&lt;|x-a|&lt;\delta$时，$|f(x)-A|&lt;\epsilon$，则称当x趋向于点a时，函数$f(x)$的极限是A，或者说它收敛于A，记为$\lim_{x\rightarrow a} f(x)=A$。
+上面这个叫做“$\epsilon -\delta$定义”，乃考试之重点尔。
+关键在于求$\delta=\delta(\epsilon)&gt;0$，通常来说用分析法，$|f(x)-A|\le \cdot\cdot\cdot\le M|x-a|=M\delta&lt;\epsilon$，其中M是与x无关的常数
+关键的关键在于提出$|x-a|$这个项，此时就需要高端的放缩技巧，以及各种变形技巧（比如三角函数公式）。</p>
+
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+        <div class="post-tags">
+            
+                
+                
+                
+                
+                    
+                    <a href="/tags/%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>知识整理</a>
+                
+            
+                
+                
+                
+                
+                    
+                    <a href="/tags/%E6%97%A7/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>旧</a>
+                
+            
+        </div>
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">©&nbsp;2020–2024&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;xf67</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
+
+            
+    
+        <ul class="socials"><li class="socials-item">
+                    <a href="mailto:xf6767@gmail.com" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://github.com/xf67" target="_blank" rel="external noopener" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://t.me/xf6767" target="_blank" rel="external noopener" title="Telegram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon social-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                </li></ul>
+    
+
+
+
+            
+        </div>
+    </footer>
+
+
+        </div>
+        
+
+        
+
+
+    <script>
+    if (typeof MathJax === 'undefined') {
+        window.MathJax = {
+            loader: {
+                load: ['[tex]/mhchem']
+            },
+            
+            tex: {
+                inlineMath: {'[+]': [['$', '$']]},
+                tags: 'ams',
+                packages: {'[+]': ['mhchem']}
+            }
+        };
+        (function() {
+            const script = document.createElement('script');
+            script.src = 'https:\/\/cdn.jsdelivr.net\/npm\/mathjax@3.1.2\/es5\/tex-mml-chtml.js';
+            script.defer = true;
+            document.head.appendChild(script);
+        })();
+    } else {
+        MathJax.texReset();
+        MathJax.typeset();
+    }
+</script>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+    </body>
+</html>
